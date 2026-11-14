@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="#101829" name="theme-color"/>
+<meta content="個人作品集：About Me、Skills、Experience &amp; Projects、Contact。" name="description"/>
+<title>My Portfolio | 個人履歷網站</title>
+<link href="css/style.css" rel="stylesheet"/>
+</head>
+<body id="home">
+<!-- Reusable icon drawings: no image library or network connection required. -->
+<svg aria-hidden="true" height="0" style="position:absolute;overflow:hidden" width="0" xmlns="http://www.w3.org/2000/svg">
+<symbol id="ico-quote" viewbox="0 0 24 24"><path d="M9 10H5V5h6v6l-3 5H5l3-6m10 0h-4V5h6v6l-3 5h-3l3-6"></path></symbol>
+<symbol id="ico-user" viewbox="0 0 32 32"><circle cx="16" cy="9" r="7"></circle><path d="M4 29c0-7 5.4-12 12-12s12 5 12 12"></path></symbol>
+<symbol id="ico-code" viewbox="0 0 24 24"><path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-13-3 16"></path></symbol>
+<symbol id="ico-users" viewbox="0 0 24 24"><circle cx="9" cy="8" r="3"></circle><path d="M3 19v-2c0-3 2.5-5 6-5s6 2 6 5v2H3Z"></path><path d="M17 6a3 3 0 0 1 0 6m1 1c2 1 3 2 3 4v2h-4"></path></symbol>
+<symbol id="ico-bag" viewbox="0 0 24 24"><rect height="12" rx="2" width="14" x="5" y="8"></rect><path d="M9 8V6a3 3 0 0 1 6 0v2"></path></symbol>
+<symbol id="ico-globe" viewbox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c4 4 4 14 0 18-4-4-4-14 0-18Z"></path></symbol>
+<symbol id="ico-pen" viewbox="0 0 24 24"><path d="m5 16 11-11 3 3L8 19l-4 1 1-4Zm9-9 3 3"></path><path d="M4 7V4h4m8 16h4v-4"></path></symbol>
+<symbol id="ico-database" viewbox="0 0 24 24"><ellipse cx="12" cy="5" rx="7" ry="3"></ellipse><path d="M5 5v7c0 4 14 4 14 0V5M5 12v7c0 4 14 4 14 0v-7"></path></symbol>
+<symbol id="ico-picture" viewbox="0 0 24 24"><rect height="17" rx="2" width="19" x="2.5" y="3.5"></rect><circle cx="8" cy="9" r="1.7"></circle><path d="m3 18 6-6 3 3 3-3 6 6"></path></symbol>
+<symbol id="ico-mail" viewbox="0 0 24 24"><rect height="14" rx="2" width="18" x="3" y="5"></rect><path d="m4 7 8 6 8-6"></path></symbol>
+<symbol id="ico-instagram" viewbox="0 0 24 24"><rect height="18" rx="5" width="18" x="3" y="3"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></symbol>
+<symbol id="ico-phone" viewbox="0 0 24 24"><path d="M7 3h4l1 5-3 2a15 15 0 0 0 5 5l2-3 5 1v4c0 2-2 4-4 4A17 17 0 0 1 3 7c0-2 2-4 4-4Z"></path></symbol>
+<symbol id="ico-up" viewbox="0 0 24 24"><path d="m6 13 6-6 6 6M12 7v12"></path></symbol>
+</svg>
+<header class="site-header">
+<nav aria-label="主要導覽" class="top-nav">
+<a class="active" data-page="home" href="#home">Home</a>
+<a data-page="about" href="#about">About</a>
+<a data-page="skills" href="#skills">Skills</a>
+<a data-page="experience" href="#experience">Experience</a>
+<a data-page="contact" href="#contact">Contact</a>
+</nav>
+</header>
+<main>
+<section class="narrow" id="about">
+<h2 class="section-title">About Me <small>/ 個人資訊</small></h2>
+<div class="about-hero">
+<div class="about-copy">
+<h1>羅郁翔</h1>
+<p class="about-school">中原大學資訊管理系 | 大二</p>
+<!-- 個人座右銘：字體比下方介紹更大 -->
+<div class="quote-box"><svg class="icon"><use href="#ico-quote"></use></svg><span>用邏輯思考，用音樂呼吸。</span></div>
+<p class="intro-text">寫程式與彈吉他，看似一冷一熱，對我來說卻都是把抽象想法具象化的過程。在程式碼的世界裡，我享受抽絲剝繭、解決問題的成就感；抱起木吉他時，則習慣用旋律與節奏記錄生活。只要看見腦中的創意真正落地並產生價值，就是我持續前進的最大動力。</p>
+<!-- 興趣與個人特質：中文標題、英文小字，個人特質橫向排列 -->
+<div class="personal-info-cards">
+<div class="personal-info-card interest-card">
+<div class="personal-info-heading">
+<span aria-hidden="true">♫</span>
+<div class="personal-info-heading-text">
+<strong>興趣</strong>
+<small>MY INTEREST</small>
+</div>
+</div>
+<div class="personal-info-value">彈吉他</div>
+</div>
+<div class="personal-info-card traits-card">
+<div class="personal-info-heading">
+<span aria-hidden="true">✦</span>
+<div class="personal-info-heading-text">
+<strong>個人特質</strong>
+<small>PERSONAL TRAITS</small>
+</div>
+</div>
+<ul class="traits-list">
+<li>邏輯分析</li>
+<li>跨界實踐</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="avatar-column">
+<div class="avatar-shell"><img alt="羅郁翔彈吉他的個人照片" class="avatar-photo" loading="eager" src="image/me.jpg"/></div>
+<div class="profile-caption">PROFILE PICTURE</div>
+</div>
+</div>
+</section>
+<section class="narrow" id="skills">
+<h2 class="section-title">SKILLS &amp; EXPERTISE <small>/ 我的技能</small></h2>
+<!-- 技能與學歷：左右兩張卡片，下方軟實力獨立一整列 -->
+<div class="skills-education-layout">
+<div class="skills-panel">
+<h3 class="subheading">專業技能 <small>PROFESSIONAL SKILLS</small></h3>
+<div class="skill-grid">
+<div class="skill-card" style="--skill:#34d7f2; --progress:40%"><div class="ring"><span>40%</span></div><div class="skill-name">Python</div><div class="skill-level">學習中</div></div>
+<div class="skill-card" style="--skill:#bf77ff; --progress:35%"><div class="ring"><span>35%</span></div><div class="skill-name">Java</div><div class="skill-level">學習中</div></div>
+<div class="skill-card" style="--skill:#14c3bb; --progress:45%"><div class="ring"><span>45%</span></div><div class="skill-name">Web Development</div><div class="skill-level">學習中</div></div>
+<div class="skill-card" style="--skill:#f35caa; --progress:40%"><div class="ring"><span>40%</span></div><div class="skill-name">Databases</div><div class="skill-level">學習中</div></div>
+<div class="skill-card" style="--skill:#f4b45f; --progress:40%"><div class="ring"><span>40%</span></div><div class="skill-name">UI Design</div><div class="skill-level">學習中</div></div></div>
+</div>
+<aside aria-labelledby="education-title" class="education-panel">
+<div class="education-heading"><span aria-hidden="true" class="education-icon">🎓</span><div><h3 id="education-title">學歷</h3><small>EDUCATION TIMELINE</small></div></div>
+<ol class="education-timeline">
+<li class="education-item university"><span class="education-stage">大學</span><strong>中原大學</strong><span class="education-detail">資訊管理學系</span></li>
+<li class="education-item"><span class="education-stage">高中</span><strong>新竹高商</strong><span class="education-status">已畢業</span></li>
+<li class="education-item"><span class="education-stage">國中</span><strong>成功國中</strong><span class="education-status">已畢業</span></li>
+</ol>
+</aside>
+<div class="soft-skills-section">
+<h3 class="subheading">軟實力 <small>SOFT SKILLS</small></h3>
+<div class="soft-panel">
+<div class="soft-top"><strong>Soft Skills &amp; Badges</strong><div class="badges"><span class="badge" style="--b:#55c9e9">Git</span><span class="badge" style="--b:#b37bef">Agile</span><span class="badge" style="--b:#1bccb5">Design</span><span class="badge" style="--b:#ee8835">UX</span><span class="badge" style="--b:#f05da7">Figma</span></div></div>
+<div class="soft-row"><span class="label">溝通表達</span><div class="track" style="--level:90%"></div><span class="pending">90%</span></div>
+<div class="soft-row"><span class="label">團隊合作</span><div class="track" style="--level:85%"></div><span class="pending">85%</span></div>
+<div class="soft-row"><span class="label">問題解決</span><div class="track" style="--level:80%"></div><span class="pending">80%</span></div>
+<div class="soft-row"><span class="label">活動企劃</span><div class="track" style="--level:75%"></div><span class="pending">75%</span></div>
+<div class="soft-row"><span class="label">項目管理</span><div class="track" style="--level:88%"></div><span class="pending">88%</span></div>
+</div>
+</div>
+</div>
+</section>
+<section class="wide" id="experience">
+<h2 class="experience-title">EXPERIENCE &amp; PROJECTS</h2>
+<div class="timeline project-banners">
+<article class="project project-banner" style="--dot:#50d9f1">
+<img alt="熱門音樂社活動與幹部經驗" class="project-banner-photo project-logo" loading="lazy" src="image/logo.png"/>
+<div class="project-banner-shade"></div>
+<div class="project-banner-content">
+<h3>熱門音樂社</h3>
+<button class="view-project" data-description="擔任熱門音樂社器材與小練幹部，參與器材設備管理、社辦維護、幹部訓練與社團活動。" data-image="image/logo.png" data-project="1" type="button">View Project</button>
+</div>
+</article>
+<article class="project project-banner" style="--dot:#b37cf6">
+<img alt="環境教育與淨灘行動" class="project-banner-photo" loading="lazy" src="image/beach3.jpg"/>
+<div class="project-banner-shade"></div>
+<div class="project-banner-content">
+<h3>林口嘉寶沙灘淨灘：環境教育行動</h3>
+<button class="view-project" data-description="參與林口嘉寶沙灘淨灘活動，透過實地清理海岸垃圾，認識海洋廢棄物與環境保護的重要性。" data-image="image/beach3.jpg" data-project="2" type="button">View Project</button>
+</div>
+</article>
+<article class="project project-banner" style="--dot:#72b5ff">
+<img alt="永續發展英文簡報" class="project-banner-photo" loading="lazy" src="image/eng3.png"/>
+<div class="project-banner-shade"></div>
+<div class="project-banner-content">
+<h3>SDG 英文簡報競賽</h3>
+<button class="view-project" data-description="參與 SDGs 英文簡報競賽，運用英文簡報與視覺設計傳達永續發展議題。" data-image="image/eng3.png" data-project="3" type="button">View Project</button>
+</div>
+</article>
+<article class="project project-banner" style="--dot:#e6a5ff">
+<img alt="電子書創作與競賽成果" class="project-banner-photo project-book-logo" loading="lazy" src="image/book6.png"/>
+<div class="project-banner-shade"></div>
+<div class="project-banner-content">
+<h3>國際華文暨教育盃：第十六屆電子書創作大賽</h3>
+<button class="view-project" data-description="作品《冰的歷史－神經冰》，獲海外組特優第三名及網路人氣獎海外組第一名。" data-image="image/book6.png" data-project="4" type="button">View Project</button>
+</div>
+</article>
+</div>
+</section>
+<!-- 聯絡資訊：橫向完整區塊，表單改由按鈕開啟 -->
+<section class="wide" id="contact">
+<div class="contact-card contact-details contact-full">
+<div class="contact-heading-row">
+<div>
+<h2>聯絡資訊 <small>CONTACT</small></h2>
+<p>歡迎透過以下方式與我聯繫，或點擊「聯絡我」留下訊息。</p>
+</div>
+<button class="contact-open-btn" id="open-contact-modal" type="button">聯絡我 <span aria-hidden="true">↗</span></button>
+</div>
+<!-- 聯絡方式：僅顯示可點擊圖示及下方名稱；不直接顯示帳號或電話 -->
+<div aria-label="聯絡方式" class="contact-methods contact-icon-links">
+<a aria-label="透過 Email 聯絡我" class="contact-icon-link" href="mailto:patrickluo1111@gmail.com" title="Email">
+<span class="contact-icon"><svg aria-hidden="true" class="icon"><use href="#ico-mail"></use></svg></span>
+<span class="contact-icon-label">Email</span>
+</a>
+<a aria-label="開啟 Instagram 個人頁面" class="contact-icon-link" href="https://www.instagram.com/luo._.1111/" rel="noopener noreferrer" target="_blank" title="Instagram">
+<span class="contact-icon"><svg aria-hidden="true" class="icon"><use href="#ico-instagram"></use></svg></span>
+<span class="contact-icon-label">Instagram</span>
+</a>
+<a aria-label="撥打電話" class="contact-icon-link" href="tel:0917670998" title="Phone">
+<span class="contact-icon"><svg aria-hidden="true" class="icon"><use href="#ico-phone"></use></svg></span>
+<span class="contact-icon-label">Phone</span>
+</a>
+</div>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="footer-upper">
+<span class="copyright">© 2026 羅郁翔</span>
+<a class="to-top" href="#home">回到頂端 ↑</a>
+</div>
+<div class="footer-bottom"><span>MY PORTFOLIO</span><span>個人簡介 / 我的技能</span></div>
+</footer>
+<!-- [互動特效] View Project 專案彈跳視窗：不佔滿整個畫面 -->
+<dialog aria-labelledby="modal-project-title" class="project-modal" id="project-modal">
+<div class="modal-heading">
+<span class="modal-kicker">PROJECT DETAILS</span>
+<button aria-label="關閉專案視窗" class="modal-close" id="modal-close" type="button">×</button>
+</div>
+<div class="modal-project-image" id="modal-project-image-wrap"><img alt="專案圖片" id="modal-project-image"/></div>
+<p class="modal-date" id="modal-project-date"></p>
+<h2 id="modal-project-title">Project Title</h2>
+<p class="modal-description" id="modal-project-description">專案詳細內容待填寫。</p>
+<!-- 熱門音樂社專用詳細內容：四段介紹＋四張活動照片 -->
+<div class="club-details" hidden="" id="club-project-details"><section class="club-detail-section"><h3><span>01</span> 參與原因</h3><p>我一直對音樂很有興趣，平常喜歡聽歌，也會透過彈吉他放鬆心情。進入大學後，我希望接觸更多不同的樂器，學習新的演奏技巧，並認識同樣喜歡音樂的朋友。加入熱門音樂社後，不只能和社員交流喜歡的歌曲，也有機會一起練習、參與活動，讓我能在課業之外持續培養自己的興趣。</p></section><section class="club-detail-section"><h3><span>02</span> 幹部經歷與工作內容</h3><p class="club-role">擔任職位：器材、小練幹部</p><p>我主要負責社團器材設備與社辦管理，包括協助整理樂器、音響設備，維持社辦整潔，以及配合社團活動準備所需器材。透過這些工作，我逐漸了解活動順利進行需要許多事前準備，也學會更細心地處理交付的任務。</p></section><section class="club-detail-section"><h3><span>03</span> 社團活動紀錄</h3><div class="club-gallery">
+<figure><button aria-label="放大幹部開會照片" class="club-photo-button" data-caption="幹部開會" data-photo="image/club4.jpg" type="button"><img alt="熱門音樂社幹部開會" loading="lazy" src="image/club4.jpg"/></button><figcaption><strong>幹部開會</strong><small>與其他幹部討論社團事務及活動安排。</small></figcaption></figure>
+<figure><button aria-label="放大社團博覽照片" class="club-photo-button" data-caption="社團博覽" data-photo="image/club1.jpg" type="button"><img alt="熱門音樂社社團博覽" loading="lazy" src="image/club1.jpg"/></button><figcaption><strong>社團博覽</strong><small>透過活動讓更多學生認識熱門音樂社。</small></figcaption></figure>
+<figure><button aria-label="放大社員大會照片" class="club-photo-button" data-caption="社員大會" data-photo="image/club5.jpg" type="button"><img alt="熱門音樂社社員大會" loading="lazy" src="image/club5.jpg"/></button><figcaption><strong>社員大會</strong><small>了解活動規劃並與社員交流。</small></figcaption></figure>
+<figure><button aria-label="播放成果發表精彩片段" class="club-video-trigger" type="button"><img alt="成果發表影片封面" loading="lazy" src="image/club6.jpg"/><span aria-hidden="true" class="club-video-play">▶</span></button><video class="club-performance-video" controls="" hidden="" playsinline="" preload="metadata"><source src="video/clubv.mp4" type="video/mp4"/>您的瀏覽器不支援影片播放。</video><figcaption><strong>成果發表｜精彩片段</strong><small>這只是演出的一小段影片。</small><a class="club-youtube-link" href="https://www.youtube.com/@cycuhotmusic" rel="noopener noreferrer" target="_blank">前往中原熱門音樂社 YouTube 觀看完整表演 ↗</a></figcaption></figure>
+</div></section><section class="club-detail-section"><h3><span>04</span> 收穫與心得</h3><p>擔任幹部後，我發現社團不只是練習音樂，也需要大家一起維持日常運作。從器材整理、社辦管理到參與活動，我學習到責任感、溝通與團隊合作的重要性。雖然有時需要花時間處理繁瑣的事務，但看到社員能順利練習和參與演出，讓我很有成就感。這段經歷也讓我更願意主動協助他人。</p></section></div>
+<!-- 林口嘉寶沙灘淨灘：三段介紹＋兩張照片 -->
+<div class="club-details" hidden="" id="beach-project-details">
+<section class="club-detail-section">
+<h3><span>01</span> 活動背景與參與原因</h3>
+<p>這次淨灘活動是管理學課程中的服務學習計畫，希望將課堂所學運用在實際行動中。我們選擇林口嘉寶沙灘作為服務地點，透過親自清理海洋廢棄物，了解海洋污染對環境與生態造成的影響。同時，也希望藉由這次活動培養團隊合作能力，並將環境保護的理念落實在生活中。</p>
+</section>
+<section class="club-detail-section">
+<h3><span>02</span> 淨灘活動紀錄</h3>
+<div class="club-gallery">
+<figure>
+<button aria-label="放大淨灘清理照片" class="club-photo-button" data-caption="淨灘清理過程" data-photo="image/beach1.jpg" type="button"><img alt="淨灘清理過程" loading="lazy" src="image/beach1.jpg"/></button>
+<figcaption><strong>淨灘清理過程</strong><small>活動當天，我們使用垃圾夾、手套及垃圾袋，分工清理沙灘上的廢棄物，並互相協助完成清理工作。</small></figcaption>
+</figure>
+<figure>
+<button aria-label="放大淨灘活動合照" class="club-photo-button" data-caption="淨灘活動合照" data-photo="image/beach2.jpg" type="button"><img alt="淨灘活動合照" loading="lazy" src="image/beach2.jpg"/></button>
+<figcaption><strong>淨灘活動合照</strong><small>大家共同將垃圾集中整理，並透過合照記錄這次服務學習的經歷。</small></figcaption>
+</figure>
+</div>
+</section>
+<section class="club-detail-section">
+<h3><span>03</span> 收穫與環境保護心得</h3>
+<p>這次參加淨灘活動，讓我真正意識到海洋垃圾污染比想像中更加嚴重。原本以為沙灘上的垃圾可能只有寶特瓶或塑膠袋，但實際到現場後，才發現還有許多細小的塑膠碎片與保麗龍，這些垃圾不僅難以清理，也可能隨著海浪進入海洋，對生態造成傷害。</p>
+<p>雖然淨灘過程相當辛苦，但看到大家一起努力，讓原本髒亂的沙灘逐漸恢復整潔，讓我感到很有成就感。同時，我也學習到團隊合作與互相協助的重要性。</p>
+<p>這次活動讓我明白，淨灘只能暫時改善環境，真正重要的是從源頭減少垃圾產生。未來我也希望從日常生活做起，減少使用一次性塑膠用品，將環境保護落實在生活中。</p>
+</section>
+</div><div class="club-details" hidden="" id="sdg-project-details"><section class="club-detail-section"><h3><span>01</span> 參與目的</h3><p>我參加 SDG 英文簡報競賽，主要希望透過實際準備與上台發表，訓練自己的英文表達能力，也提升面對觀眾演講的自信。平常學英文多半著重在課堂練習，這次競賽讓我有機會嘗試用英文整理想法、介紹議題，並練習如何在有限的時間內清楚傳達重點。同時，我也希望藉此更了解永續發展目標，挑戰自己走出舒適圈。</p></section><section class="club-detail-section"><h3><span>02</span> 競賽活動紀錄</h3><div class="club-gallery"><figure><button aria-label="放大英文簡報競賽紀錄（一）" class="club-photo-button" data-caption="英文簡報競賽紀錄（一）" data-photo="image/eng1.jpg" type="button"><img alt="英文簡報競賽紀錄（一）" loading="lazy" src="image/eng1.jpg"/></button><figcaption><strong>英文簡報競賽紀錄（一）</strong></figcaption></figure><figure><button aria-label="放大英文簡報競賽紀錄（二）" class="club-photo-button" data-caption="英文簡報競賽紀錄（二）" data-photo="image/eng2.jpg" type="button"><img alt="英文簡報競賽紀錄（二）" loading="lazy" src="image/eng2.jpg"/></button><figcaption><strong>英文簡報競賽紀錄（二）</strong></figcaption></figure></div></section><section class="club-detail-section"><h3><span>03</span> 收穫與心得</h3><p>準備英文簡報的過程中，我發現要讓觀眾理解內容，除了英文發音與用字之外，簡報架構、語速和表達方式也很重要。因此，我練習將複雜的資訊整理成容易理解的重點，並反覆熟悉講稿。雖然上台時難免緊張，但這次經驗讓我更願意開口說英文，也體會到事前準備能增加信心。未來我希望持續練習英文口說與公開表達，讓自己能更自然地分享想法。</p></section></div><div class="club-details book-details" hidden="" id="book-project-details"><div class="book-awards"><p class="book-awards-kicker">AWARDS &amp; RECOGNITION</p><div class="book-award"><span class="book-award-label">海外組</span><strong>特優第三名</strong><a aria-label="查看得獎公告（開啟新分頁）" class="book-award-link" href="https://16thebook.gogofinder.com.tw/article_detail.php?Class=Other&amp;ID=139" rel="noopener noreferrer" target="_blank">查看得獎公告 ↗</a></div><div class="book-award"><span class="book-award-label">網路人氣獎</span><strong>海外組第一名</strong><a aria-label="查看得獎公告（開啟新分頁）" class="book-award-link" href="https://16thebook.gogofinder.com.tw/news_detail.php?ID=409" rel="noopener noreferrer" target="_blank">查看得獎公告 ↗</a></div></div><section class="club-detail-section"><h3><span>01</span> 作品介紹</h3><p class="book-work-title">作品：《冰的歷史－神經冰》</p><p>這次電子書以台灣與世界各國的冰品歷史為主題，透過文字、圖片與版面設計，介紹不同地區冰品的發展與特色。我們希望讓讀者在閱讀的過程中，不只能認識熟悉的冰品，也能從飲食文化的角度了解各國的差異，並以容易閱讀的方式呈現內容。</p></section><section class="club-detail-section"><h3><span>02</span> 參與原因</h3><p>我平常對設計及簡報製作很有興趣，喜歡思考如何運用圖片、配色和文字編排，讓資訊呈現得更清楚，也更容易吸引讀者。因此，這次參加電子書創作大賽，我希望把自己的興趣運用在實際作品中，挑戰從主題發想到內容整理，再到整體視覺呈現的完整過程。透過參賽，我也想累積設計經驗，練習如何將想法轉換成能與他人分享的成果。</p></section><section class="club-detail-section"><h3><span>03</span> 作品瀏覽</h3><div class="club-gallery book-gallery"><figure><a aria-label="前往競賽官網（開啟新分頁）" class="book-photo-link" href="https://16thebook.gogofinder.com.tw/" rel="noopener noreferrer" target="_blank"><img alt="電子書創作大賽" loading="lazy" src="image/book1.png"/></a><figcaption><strong>電子書創作大賽</strong><a class="book-link-button" href="https://16thebook.gogofinder.com.tw/" rel="noopener noreferrer" target="_blank">前往競賽官網 ↗</a></figcaption></figure><figure><a aria-label="閱讀《冰的歷史－神經冰》（開啟新分頁）" class="book-photo-link" href="https://edu.gogofinder.com.tw/gogofinderReader/index.php?bid=117437024" rel="noopener noreferrer" target="_blank"><img alt="作品瀏覽" loading="lazy" src="image/book3.png"/></a><figcaption><strong>作品瀏覽</strong><a class="book-link-button" href="https://edu.gogofinder.com.tw/gogofinderReader/index.php?bid=117437024" rel="noopener noreferrer" target="_blank">閱讀《冰的歷史－神經冰》 ↗</a></figcaption></figure></div></section><section class="club-detail-section"><h3><span>04</span> 收穫與心得</h3><p>這次參加電子書創作大賽，讓我發現好的作品不只是內容豐富，也需要兼顧閱讀順序、視覺設計與資訊傳達。從蒐集冰品歷史資料到整理版面，我學習到如何選擇重點、調整文字與圖片的搭配，讓作品更完整。最後獲得海外組特優第三名與網路人氣獎海外組第一名，對我來說是很大的鼓勵，也讓我更有信心繼續嘗試設計、簡報與數位內容創作。</p></section></div>
+<button class="modal-done" id="modal-done" type="button">Close</button>
+</dialog>
+<!-- [互動特效] 點擊社團照片可在彈跳窗外放大檢視 -->
+<dialog aria-label="社團活動照片放大檢視" class="club-photo-modal" id="club-photo-modal">
+<button aria-label="關閉照片" id="club-photo-close" type="button">×</button>
+<img alt="社團活動照片" id="club-photo-full"/>
+<p id="club-photo-caption"></p>
+</dialog>
+<!-- 聯絡我：按下按鈕才顯示的表單彈跳窗 -->
+<dialog aria-labelledby="contact-modal-title" class="project-modal contact-modal" id="contact-modal">
+<div class="modal-heading">
+<span class="modal-kicker">GET IN TOUCH</span>
+<button aria-label="關閉聯絡表單" class="modal-close" id="contact-modal-close" type="button">×</button>
+</div>
+<h2 id="contact-modal-title">聯絡我</h2>
+<p class="contact-modal-intro">請填寫以下資訊，方便後續與你聯繫。</p>
+<form class="contact-form" id="contact-form">
+<div class="form-group"><label for="visitor-name">姓名 Name</label><input id="visitor-name" name="name" placeholder="請輸入姓名" required="" type="text"/></div>
+<div class="form-group"><label for="visitor-email">電子郵件 Email</label><input id="visitor-email" name="email" placeholder="請輸入電子郵件" required="" type="email"/></div>
+<div class="form-group"><label for="visitor-message">訊息 Message</label><textarea id="visitor-message" name="message" placeholder="請輸入想說的話" required=""></textarea></div>
+<button class="submit-btn" type="submit">送出訊息</button>
+<p class="form-message" id="form-message" role="status">目前為展示用表單，尚未連接寄信服務，資料不會實際送出。你也可以直接使用上方 Email 聯繫。</p>
+</form>
+</dialog>
+<script defer="" src="js/script.js"></script>
+<audio autoplay="" id="bg-music" loop="" playsinline="" preload="auto" src="music/bg.mp3"></audio></body>
+</html>
